@@ -1,0 +1,190 @@
+/* Themes Name: Test Theme 
+Author: Vlad
+Version: 1.0 */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+span {
+  font-weight: 700;
+}
+
+.header {
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar-toggler {
+  color: #7F00FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-color: #7F00FF;
+  height: 2px;
+  margin: 2px 0px 2px 0px;
+}
+
+.menu-item:not(:last-child) {
+  border-right: 1px solid black;
+  padding-right: 25px;
+}
+
+.menu-item:not(:first-child) {
+  padding-left: 25px;
+}
+
+.menu-item > a {
+  font-family: Gotham;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #7F00FF;
+  text-transform: uppercase;
+}
+
+.menu-item > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* Hero */
+
+.hero {
+padding-block: 350px;
+background-image: url(../test-theme/assets/img/hero.jpeg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.hero .hero-title h1 {
+  font-family: "Gotham";
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.hero .hero-title h2 {
+  font-size: 52px;
+  line-height: 1.2;
+  font-family: "Gotham";
+  color: #ffffff;
+}
+
+.hero .hero-title .strong {
+  font-weight: 700;
+}
+
+.hero .hero-title p {
+  font-family: "Gotham";
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
